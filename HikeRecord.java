@@ -1,17 +1,17 @@
-public class MountainHike {
+public class HikeRecord {
     private int elevation;
-    private String name;
+    private String hiker;
     private double hikeDistance;
     
-    public MountainHike(String name, int elevation, double hikeDistance) {
+    public HikeRecord(String hiker, int elevation, double hikeDistance) {
         this.elevation = elevation;
-        this.name = name;
+        this.hiker = hiker;
         this.hikeDistance = hikeDistance;
     }
-    public String getName() { return name; }
+    public String getHiker() { return hiker; }
     public double getHikeDistance() { return hikeDistance;}
     public double getElevation() { return elevation; }
     public String toString() {
-        return name + " : " + elevation + "ft";
+        return hiker + " hiked up " + elevation + " ft!!!";
     }
 }
