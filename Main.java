@@ -1,11 +1,25 @@
 import java.util.*;
 
 public class Main {
+    
+    // printBiggestHiker takes a map of strings to lists of HikeRecords and prints out
+    // the most hiked mountain
+    public static void printMostPopularHike(Map<String, List<HikeRecord>> hikes) {
+        System.out.println("Fill in this function");
+    }
+    
+    // printAverageHikeDistance takes a map of strings to lists of HikeRecords and prints out
+    // the average distance hiked, over all of the mountains. Before adding your own hikes, it should print 3.67
+    public static void printAverageHikeDistance(Map<String, List<HikeRecord>> hikes) {
+        System.out.println("Fill in this function too");
+    }
+
     public static void main(String[] args) {
         // initialize our HashMap
         Map<String, List<HikeRecord>> ourHikes = new HashMap();
-        System.out.println(ourHikes.getClass().getName());
+
         // fill out the hikes that we have gone on
+        // TODO: add at least two of your own hikes to the map (they can be made up)
         ourHikes.put("Bishop",
             Arrays.asList(
                 new HikeRecord("Mugen", 1546, 4.2),
@@ -25,17 +39,20 @@ public class Main {
         // this must remain null
         ourHikes.put("The PCT", null);
 
-        // iterate through and print the hikes
-        // is this too much to be giving them?
-        for (Map.Entry entry : ourHikes.entrySet()) {
+        // an example of one way to iterate through the hashmap. Feel free to remove it, or keep it in, up to you
+        for (Map.Entry<String, List<HikeRecord>> entry : ourHikes.entrySet()) {
             System.out.println(entry.getKey());
-            //DOES ANYONE KNOW HOW TO GET RID OF THIS CAST I DONT GET IT 
-            List<HikeRecord> hikes = (List<HikeRecord>)entry.getValue();
+            List<HikeRecord> hikes = entry.getValue();
             if (hikes != null) {
                 for (HikeRecord hike : hikes) {
-                    System.out.println("\t" + hike.getHiker());
+                    System.out.println("\t" + hike);
                 }
             }
         }
+
+        // call the functions that print out the interesting stats about the hikes
+        // TODO: fill out these functions
+        printMostPopularHike(ourHikes);
+        printAverageHikeDistance(ourHikes);
     }
 }
