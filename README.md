@@ -8,7 +8,7 @@ There are two provided files, you should only have to make changes to Main.java,
 
 We found these websites very helpful as HashMap references
 * [Java 8 Map Docs](https://docs.oracle.com/javase/8/docs/api/java/util/Map.html)
-* [Geeks For Geeks Java HashMap](https://www.geeksforgeeks.org/java-util-hashmap-in-java-with-examples/
+* [Geeks For Geeks Java HashMap](https://www.geeksforgeeks.org/java-util-hashmap-in-java-with-examples/)
 
 
 ### Submitting
