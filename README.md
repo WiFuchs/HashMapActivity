@@ -16,4 +16,4 @@ And here is a [how-to guide on using Github](https://help.github.com/en/github/c
 
 
 ### Submitting
-When you are happy with your code, submit your Main.java file to us via the [Google form](https://docs.google.com/forms/d/e/1FAIpQLSfhmmbF7UYq2WCLdn2l9ZMZgmsPqxAh-Fju2_MFypl_llkTMw/viewform), along with any feedback that you have about the assignment.
+When you are happy with your code, submit your Main.java file to us via the [Google form](https://docs.google.com/forms/d/e/1FAIpQLSfhmmbF7UYq2WCLdn2l9ZMZgmsPqxAh-Fju2_MFypl_llkTMw/viewform), along with any feedback that you have about the assignment. Please submit your code by Friday, 4/24.
