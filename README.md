@@ -10,6 +10,8 @@ We found these websites very helpful as HashMap references
 * [Java 8 Map Docs](https://docs.oracle.com/javase/8/docs/api/java/util/Map.html)
 * [Geeks For Geeks Java HashMap](https://www.geeksforgeeks.org/java-util-hashmap-in-java-with-examples/)
 
+And here is a [how-to guide on using Github](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository). If you don't want to use Git, you can open the files from here and copy their content.
+
 ---
 
 
