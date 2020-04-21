@@ -4,7 +4,7 @@ import java.util.*;
 
 public class Main {
     
-    // printBiggestHiker takes a map of strings to lists of HikeRecords and prints out
+    // printMostPopularHike takes a map of strings to lists of HikeRecords and prints out
     // the most hiked mountain
     public static void printMostPopularHike(Map<String, List<HikeRecord>> hikes) {
         System.out.println("Fill in this function");
